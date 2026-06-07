@@ -1,0 +1,84 @@
+//Client-Server Architecture Diagram
+
++----------------+
+|     Client     |
+|  (Browser)     |
++-------+--------+
+        |
+        | HTTP Request
+        v
++-------+--------+
+|      DNS       |
+|    Server      |
++-------+--------+
+        |
+        | IP Address
+        v
++-------+--------+
+|   Web Server   |
++-------+--------+
+        |
+        | Query
+        v
++-------+--------+
+|    Database    |
++-------+--------+
+        ^
+        |
+        | Data
++-------+--------+
+|   Web Server   |
++-------+--------+
+        |
+        | HTTP Response
+        v
++----------------+
+|     Client     |
+|  (Browser)     |
++----------------+
+
+//Explanation of Client-Server Architecture
+
+Client:
+The client is the user's device or web browser such as Chrome, Edge, or Firefox. It sends requests to access websites and displays the received content.
+
+DNS Server:
+The Domain Name System (DNS) converts a website name (e.g., www.google.com) into an IP address that computers can understand.
+
+Web Server:
+The web server receives requests from the client, processes them, retrieves data if required, and sends responses back to the client.
+
+Database:
+The database stores information such as user details, products, posts, and other website data.
+
+
+
+//What Happens When You Open a Website?
+
+Step 1: User Enters URL
+The user types a website address such as:
+https://www.google.com
+into the browser.
+
+Step 2: DNS Lookup
+The browser contacts a DNS server to find the IP address associated with the website name.
+Example:
+www.google.com → 142.250.xxx.xxx
+
+Step 3: Browser Sends Request
+After obtaining the IP address, the browser sends an HTTP/HTTPS request to the web server.
+
+Step 4: Server Processes Request
+The web server receives the request and determines what information is needed.
+
+Step 5: Database Access
+If required, the server retrieves data from the database.
+
+Step 6: Server Sends Response
+The server sends back HTML, CSS, JavaScript, images, and other resources.
+
+Step 7: Browser Renders the Page
+The browser downloads all resources and displays the webpage on the screen.
+
+Step 8: User Interacts with the Website
+The user can click links, submit forms, watch videos, and perform other actions on the website.
