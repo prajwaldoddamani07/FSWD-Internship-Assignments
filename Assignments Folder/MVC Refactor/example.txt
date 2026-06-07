@@ -1,0 +1,18 @@
+project
+│
+├── models
+│   └── taskModel.js
+│
+├── controllers
+│   └── taskController.js
+│
+├── routes
+│   └── taskRoutes.js
+│
+└── server.js
+
+
+//javascript
+exports.getTasks = (req,res)=>{
+ res.send("All Tasks");
+};
