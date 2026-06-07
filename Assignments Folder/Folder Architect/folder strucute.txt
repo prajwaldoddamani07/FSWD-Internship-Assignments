@@ -1,0 +1,70 @@
+
+//Project Folder Structure
+
+
+project/
+│
+├── public/
+│   └── index.html
+│
+├── src/
+│   ├── assets/
+│   │   ├── images/
+│   │   └── icons/
+│   │
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   └── ProductCard.jsx
+│   │
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── About.jsx
+│   │   └── Contact.jsx
+│   │
+│   ├── services/
+│   │   └── api.js
+│   │
+│   ├── styles/
+│   │   └── main.css
+│   │
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+└── README.md
+
+
+
+
+//Explanation
+
+public:
+Contains static files such as the main HTML file and assets that do not change.
+
+src:
+Contains all source code of the application.
+
+assets:
+Stores images, icons, fonts, and other media files.
+
+components:
+Contains reusable UI components such as Navbar, Footer, and Product Cards.
+
+pages:
+Contains individual page components such as Home, About, and Contact.
+
+services:
+Contains API calls and backend communication logic.
+
+styles:
+Contains CSS files used throughout the application.
+
+App.jsx:
+Main component that combines all other components.
+
+package.json:
+Stores project dependencies and scripts.
+
+README.md:
+Contains project documentation and instructions.
