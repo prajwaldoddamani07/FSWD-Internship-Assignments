@@ -1,0 +1,17 @@
+App
+│
+├── Navbar
+├── SearchBar
+├── Banner
+├── ProductList
+│   ├── ProductCard
+│   ├── ProductCard
+│   └── ProductCard
+├── Footer
+
+<App>
+   <Navbar />
+   <Banner />
+   <ProductList />
+   <Footer />
+</App>
